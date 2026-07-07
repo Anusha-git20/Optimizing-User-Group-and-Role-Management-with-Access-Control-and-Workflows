@@ -156,47 +156,69 @@ Project Architecture
 
 Administrator
 
-      │
-      
+      │  
       ▼
-      
 Create Users
+
       │
+      
       ▼
+      
 Create Groups
+
       │
+      
       ▼
+      
 Create Roles
       │
+      
       ▼
+      
 Assign Roles & Groups
       │
+      
       ▼
+      
 Create Project & Task Tables
       │
+      
       ▼
+      
 Configure Application Access
       │
+      
       ▼
+      
 Create ACLs
       │
+      
       ▼
+      
 Build Flow Designer Workflow
       │
+      
       ▼
+      
 Task Created
       │
+      
       ▼
+      
 Status Updated
       │
+      
       ▼
+      
 Approval Request Sent
       │
-      ▼
+      
+      ▼    
 Approval Completed
       │
-      ▼
+      ▼      
 Workflow Completed
+
 Workflow Process
 User creates a task.
 Flow Designer detects the record creation.
