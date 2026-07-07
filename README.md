@@ -1,13 +1,13 @@
 # Optimizing-User-Group-and-Role-Management-with-Access-Control-and-Workflows
 Optimized user, group, and role management in ServiceNow using Role-Based Access Control (RBAC). Implemented ACLs to secure data access, automated workflows for task management, and streamlined user administration to improve security, efficiency, and collaboration while following ServiceNow best practices.
 
-Overview
+#Overview
 
 This project demonstrates the implementation of a secure User, Group, and Role Management System using the ServiceNow Developer Instance. The project focuses on creating users, groups, and roles, assigning controlled access through Access Control Lists (ACLs), and automating project workflows using Flow Designer.
 
 The implementation follows a structured approach to ensure secure access management, workflow automation, and efficient project collaboration.
 
-Features
+#Features
 User Management
 Group Management
 Role-Based Access Control (RBAC)
@@ -27,12 +27,13 @@ Project Workflow
 
 The project is divided into multiple implementation phases.
 
-Phase 1: Requirement Analysis and Planning
+#Phase 1: Requirement Analysis and Planning
 Analyzed business requirements.
 Identified user roles and responsibilities.
 Planned access control requirements.
 Designed the project execution roadmap.
-Phase 2: Core Platform Setup
+
+#Phase 2: Core Platform Setup
 Create Users
 
 Created two users:
@@ -50,7 +51,8 @@ Created:
 
 Project Manager Role
 Team Member Role
-Phase 3: Data and Structural Configuration
+
+#Phase 3: Data and Structural Configuration
 
 Created two custom tables.
 
@@ -70,7 +72,8 @@ Description
 Status
 Comments
 Assigned To
-Phase 4: Access Assignment
+
+#Phase 4: Access Assignment
 Assigned Users to Group
 
 Added:
@@ -97,7 +100,7 @@ Task Table Role
 
 Verified permissions using Impersonate User.
 
-Phase 5: Application Security
+#Phase 5: Application Security
 
 Configured module access for:
 
@@ -116,7 +119,7 @@ Description
 
 This ensures only authorized users can access or modify records.
 
-Phase 6: Workflow Automation
+#Phase 6: Workflow Automation
 
 Created a Flow using Flow Designer.
 
@@ -127,15 +130,17 @@ When a Task Table 2 record is created with:
 Status = In Progress
 Comments = Feedback
 Assigned To = Bob
+
 Actions
+
 Update Status to Completed
 Send Approval Request to Alice
 
 The workflow automates task completion and approval.
 
-Phase 7: Testing and Validation
+#Phase 7: Testing and Validation
 
-Performed:
+#Performed:
 
 User Testing
 Group Testing
@@ -144,7 +149,7 @@ ACL Validation
 Workflow Execution Testing
 Security Validation
 
-Verified:
+#Verified:
 
 Correct role assignment
 Controlled access
@@ -152,7 +157,7 @@ Successful workflow execution
 Approval process
 Proper security implementation
 
-Project Architecture
+#Project Architecture
 
 Administrator
 
@@ -275,7 +280,8 @@ Workflow Automation
 Role-Based Security
 Application Configuration
 Project Management using ServiceNow
-Conclusion
+
+#Conclusion:
 
 This project successfully implemented a secure User, Group, and Role Management System using the ServiceNow Developer Instance. Users, groups, roles, custom tables, Access Control Lists (ACLs), and automated workflows were configured to create a structured and secure project management environment.
 
@@ -283,30 +289,30 @@ Role-based access control ensured that users could access only the resources req
 
 Overall, the project demonstrates how ServiceNow can be used to build a secure, scalable, and automated solution for managing users, access permissions, and workflows in a real-world project management environment.
 
-Team Members
+#Team Members
 
 Project Title: Optimizing User, Group, and Role Management with Access Control and Workflows
 
-Team Leader:
+#Team Leader:
 
 Anusha Pilli
 
-Team Members:
+#Team Members:
 
 Mitharaj Kare
 Keerthika Mallampati
 Shalini Naraharisetty
 Bekkam Sandhya
 
-College
+#College:
 
 Vijaya Institute of Technology for Women
 
-Platform
+#Platform:
 
 ServiceNow Developer Instance
 
-Reference
+#Reference:
 
 Azure Skill Wallet Project Guidelines
 
