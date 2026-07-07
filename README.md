@@ -151,10 +151,15 @@ Controlled access
 Successful workflow execution
 Approval process
 Proper security implementation
+
 Project Architecture
+
 Administrator
+
       │
+      
       ▼
+      
 Create Users
       │
       ▼
