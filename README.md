@@ -160,61 +160,61 @@ Administrator
       ▼
 Create Users
 
-      │
-      
+      │     
       ▼
       
 Create Groups
+
+      │      
+      ▼
+      
+Create Roles
+
+      │      
+      ▼
+      
+Assign Roles & Groups
+
+      │      
+      ▼
+      
+Create Project & Task Tables
+
+      │     
+      ▼
+      
+Configure Application Access
+
+      │     
+      ▼
+      
+Create ACLs
+
+      │    
+      ▼
+      
+Build Flow Designer Workflow
 
       │
       
       ▼
       
-Create Roles
-      │
-      
-      ▼
-      
-Assign Roles & Groups
-      │
-      
-      ▼
-      
-Create Project & Task Tables
-      │
-      
-      ▼
-      
-Configure Application Access
-      │
-      
-      ▼
-      
-Create ACLs
-      │
-      
-      ▼
-      
-Build Flow Designer Workflow
-      │
-      
-      ▼
-      
 Task Created
-      │
-      
+
+      │      
       ▼
       
 Status Updated
-      │
-      
+
+      │    
       ▼
       
 Approval Request Sent
-      │
-      
+
+      │ 
       ▼    
 Approval Completed
+
       │
       ▼      
 Workflow Completed
